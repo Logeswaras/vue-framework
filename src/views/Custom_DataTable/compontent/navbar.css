@@ -1,0 +1,20 @@
+.side-navbar {
+  width: 260px;
+  height: 100%;
+  position: fixed;
+  background-color: #eeeeee;
+  transition: 0.5s;
+}
+
+.nav-link:active,
+.nav-link:focus,
+.nav-link:hover {
+  background-color: #afafaf95;
+}
+.active-nav {
+  margin-left: 0;
+}
+
+.active-cont {
+  margin-left: 250px;
+}

@@ -1,14 +1,12 @@
-import { createStore } from 'vuex'
+import { createStore } from "vuex";
+import { loginUser } from "./modules/UserAuthentication";
+// import {userTable} from './modules/UserTable'
+
+
 
 export default createStore({
-  state: {
-  },
-  getters: {
-  },
-  mutations: {
-  },
-  actions: {
-  },
   modules: {
-  }
-})
+    loginUser,
+    // userTable
+  },
+});
